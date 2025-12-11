@@ -24,6 +24,17 @@ body {
   border-radius: 6px;
 }
 
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+  color: #94a3b8;
+  font-size: 14px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
 .container {
   padding: 25px;
   display: grid;
