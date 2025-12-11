@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مكتبة الأفلام</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>مكتبة الأفلام 🎬</h1>
+    <input type="text" id="search" placeholder="ابحث عن افلام">
+  </header>
+
+  <main class="container" id="movies"></main>
+
+  <!-- نافذة التفاصيل -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close" id="close">×</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-director"></p>
+      <p id="modal-rating"></p>
+
+      <h4>🎭 طاقم التمثيل:</h4>
+      <ul id="modal-cast"></ul>
+
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
